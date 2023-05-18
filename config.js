@@ -14,7 +14,7 @@ module.exports = {
 
   LOGS: toBool(process.env.LOGS) || true,
 
-  ALIVE_DATA : process.env.ALIVE_DATA || "_iam alive now &sender_",
+  ALIVE_DATA : process.env.ALIVE_DATA || "_i am alive now &sender_",
 
   DATABASE: DATABASE_URL === "./database.db" ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: false }) : new Sequelize(DATABASE_URL, {dialect: "postgres", ssl: true, protocol: "postgres", dialectOptions: { native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false }),
 
@@ -36,19 +36,19 @@ module.exports = {
 
   ANTIFAKE : process.env.ANTIFAKE || '',
 
-  BOT_INFO: process.env.BOT_INFO || '𝐀𝐁𝐔 𝐌𝐃 𝐁𝐎𝐓;~Jasil;Copyright by Abu;917025994178;™𝐀𝐁𝐔 𝐌𝐃;https://i.ibb.co/nc4MKWb/ae8d07d7943e.jpg',
+  BOT_INFO: process.env.BOT_INFO || '*VIRUS* 𝐌𝐃 𝐁𝐎𝐓;~Jasil;Copyright by JISANG;917025994178;™ *VIRUS* 𝐌𝐃;https://i.imgur.com/aSm8fGZ.jpeg',
 
   WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
 
-  GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
+  GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Meeting you",
 
-  STICKER_DATA: process.env.STICKER_DATA || "Abu",
+  STICKER_DATA: process.env.STICKER_DATA || "PARK-JI-SANG",
 
   ACR_A: "ff489a0160188cf5f0750eaf486eee74",
 
   ACR_S: "ytu3AdkCu7fkRVuENhXxs9jsOW4YJtDXimAWMpJp",
 
-  SUDO: process.env.SUDO || "917025994178",
+  SUDO: process.env.SUDO || "2348095739078",
 
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || " ",
 
