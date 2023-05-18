@@ -1,12 +1,12 @@
 {
-   "name": "Abu-MD",
+   "name": "Virus-MD",
    "version": "2.0.1",
-   "description": "Abu-MD - Simple whatsapp Bot",
+   "description": "Virus-Bot-MD - Simple whatsapp Bot",
    "main": "./index.js",
    "scripts": {
     "start": "supervisor -s index.js"
    },
-   "author": "Afx-Abu",
+   "author": "Virus-Bot",
    "license": "ISC",
    "dependencies": {
       "@adiwajshing/baileys": "npm:jsl-bot",
